@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Админка</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="admin-login">
+  <h2>Вход в админку</h2>
+  <input type="password" id="admin-password" placeholder="Пароль">
+  <button id="admin-login-btn">Войти</button>
+  <p id="admin-error" style="color:red;"></p>
+</div>
+
+<div id="admin-panel" style="display:none;">
+  <h2>Админ-панель</h2>
+  <div id="user-management"></div>
+  <div id="gift-management"></div>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>

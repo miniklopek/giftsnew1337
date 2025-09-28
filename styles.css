@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; background: #071a2b; color:#e6eef6;}
+.top-bar { display:flex; justify-content:space-between; align-items:center; padding:10px 20px; background: linear-gradient(90deg,#4a90e2,#9013fe);}
+.avatar {width:40px;height:40px;border-radius:50%;background:#fff;cursor:pointer;}
+h1,h2,h3,h4 {margin:10px 0;}
+button {cursor:pointer; padding:5px 10px; margin:5px; border:none; border-radius:5px; background: #4a90e2; color:#fff;}
+input {padding:5px; margin:5px; border-radius:5px; border:none;}
+#gift-list, #gifts-container {display:flex; flex-wrap:wrap; gap:10px;}
+.gift-card {width:100px; text-align:center; background:#0f2a44; padding:5px; border-radius:5px;}
+.gift-card img {width:80px; height:80px;}
+.gift-count {position:absolute; background:red; color:white; border-radius:50%; width:20px; height:20px; font-size:12px; display:flex; justify-content:center; align-items:center;}
